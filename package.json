@@ -1,0 +1,13 @@
+{
+    "name": "slack-maven-webhook",
+    "version": "1.0.0",
+    "description": "Slack webhook handler for Maven bot to trigger Grain meeting processing",
+    "type": "module",
+    "scripts": {
+          "dev": "vercel dev"
+    },
+    "dependencies": {},
+    "devDependencies": {
+          "vercel": "^37.0.0"
+    }
+}
