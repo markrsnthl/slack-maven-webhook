@@ -27,7 +27,7 @@ export default async function handler(req, res) {
                     console.log('Found Grain URL:', grainUrl);
 
                 // TODO: Replace with your actual Make webhook URL
-                const makeWebhookUrl = 'YOUR_MAKE_WEBHOOK_URL_HERE';
+                const makeWebhookUrl = 'https://hook.us1.make.com/ztb1ogj7xxsi7wba66fseid9wp79nedy';
 
                 try {
                             // Trigger Make webhook
@@ -56,3 +56,4 @@ export default async function handler(req, res) {
   // Always return 200 OK to acknowledge receipt
   return res.status(200).send('OK');
 }
+Page_Down
