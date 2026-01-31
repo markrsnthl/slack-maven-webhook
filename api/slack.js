@@ -1,4 +1,4 @@
-/Page_Down/ Slack webhook handler for Maven bot
+// Slack webhook handler for Maven bot
 // This handles app_mention events and triggers Make workflow
 
 export default async function handler(req, res) {
